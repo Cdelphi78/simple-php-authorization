@@ -185,6 +185,23 @@ if(candidate.length){
     time: 10000
   });
 
+/* magnificPopup modal login window */
+$('.popup-with-zoom-anim').magnificPopup({
+    type: 'inline',
+
+    fixedContentPos: false,
+    fixedBgPos: true,
+
+    overflowY: 'auto',
+
+    closeBtnInside: true,
+    preloader: false,
+    
+    midClick: true,
+    removalDelay: 300,
+    mainClass: 'my-mfp-zoom-in'
+  });
+
 /* magnificPopup img view */
 $('.popup-image').magnificPopup({
 	type: 'image',
